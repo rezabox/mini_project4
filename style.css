@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+  }
+  @font-face{
+       font-family: 'Byekan';
+       src: url('../fonts/Byekan.ttf') format('truetype'),
+            url('../fonts/Bykan.woff') format('woff');
+  }
+  @font-face{
+            font-family: 'lalehzar';
+            src: url('../fonts/lalehzar.ttf')
+            format('truetype'),
+                   url('../fonts/lalezar.woff') format('woff');
+  }
+  body{
+       font-family: Byekan;
+  }
+  .header{
+         height: 550px;
+         background-image: url(images/background.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         padding-top: 20px;
+         
+  }
+
+  .header ul{
+           padding: 0;
+           margin: 0;
+           list-style-type: none;
+           text-align: center;
+  }
+  .header li{
+            display: inline;
+            padding: 20px 15px;
+            margin: 20px 15px;
+  }
+  .header h1,p{
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+  }
+  .header li:hover{
+                 border-radius: 20px;
+                 box-shadow: 0 0 120px black;
+                 color:orange;
+                
+  }
+  .header h1{
+          font-size: 70px;
+  }
+  .header h1 span{
+                 color: orange;
+  }
+ .header .desc{
+          margin: auto;
+          width: 450px;
+          line-height: 55px;
+          height: 55px;
+
+ }
+ .member{
+         text-align: center;
+         padding:50px 20px;
+       
+ }
+ .member-list{
+         list-style-type: none;
+         margin-top: 50px;
+
+ }
+ .member-item{
+          width: 350px;
+          display: inline-block;
+          border: 2px solid lightgray;
+          box-shadow: 0 0 10px #bbbb;
+ }
+ .member-pic{
+           width: 100%;
+ }
+ .member-name{
+        font-size: 25px;
+        margin-top: 25px;
+ }
+ .member-bio{
+           padding: 20px;
+           text-align: justify;
+           margin-bottom: 50px;
+ }
+ .about{
+      height: 700px;
+      background-image: url('../images/bg.jpg');
+      background-size: cover;
+      padding-top:50px;
+      background-color: #3e3726;
+      background-blend-mode: multiply;
+ }
+ .circle{
+        height: 600px;
+        width: 600px;
+        background-color: rgba(135,135,135,0.3); 
+        margin: auto;  
+        border-radius: 50%;
+        text-align: center;
+        padding: 50px 50px 50px 50px;
+        color: white;
+      
+ }
+ .circle h2{
+          font-size: 40px;
+ }
+ .circle p{
+          font-size: x-large;
+ }
+ .footer {
+         text-align: center;
+         background-color: gray;
+         margin-top: 20px;
+         padding: 20px 15px;
+
+ }
+ .footer p{
+       background-color: lightgray;
+ }
